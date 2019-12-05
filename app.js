@@ -46,6 +46,7 @@ router.get('/get/html', function(req, res) {
     var stylesheet = xmlParse(xsl); //Parsing our XSL file
 
     var result = xsltProcess(doc, stylesheet); //Execute Transformation
+    
 
     res.end(result.toString()); //We render the result back to the user converting it to a string before serving
 
