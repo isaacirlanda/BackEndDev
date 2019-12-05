@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="shop.xls" type="text/xls"?>
+<shop>
+	<items name=”computer”>
+		<device OS=”Windows”>
+			<company>DELL</company>
+			<price>499.99</price>
+        </device>
+        <device OS=”Windows”>
+			<company>ACER</company>
+			<price>599.99</price>
+        </device>
+        <device OS=”MacOS”>
+			<company>Apple</company>
+			<price>2899.99</price>
+        </device>
+    </items>
+    <items name=”tablet”>
+        <device OS=”Android”>
+		    <company>Samsung</company>
+		    <price>199.99</price>
+        </device>
+        <device OS=”Android”>
+		    <company>Lenovo</company>
+		    <price>179.99</price>
+        </device>
+        <device OS=”iOS”>
+		    <company>Apple</company>
+		    <price>399.99</price>
+        </device>
+    </items>
+    <item name=”phone”>
+        <device OS=”iOS”>
+		    <company>Apple</company>
+		    <price>999.99</price>
+        </device>
+        <device OS=”Android”>
+		    <company>Huawei</company>
+		    <price>599.99</price>
+        </device>
+    </items>
+</shop>
